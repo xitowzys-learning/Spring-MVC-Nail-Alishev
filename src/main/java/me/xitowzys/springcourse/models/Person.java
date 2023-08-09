@@ -12,6 +12,8 @@ import org.springframework.stereotype.Component;
 @ToString
 public class Person {
 
+    public Person() {}
+
     private int id;
     private String name;
 
